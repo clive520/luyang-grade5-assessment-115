@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#244c72">
+  <meta name="description" content="115 年度鹿陽國小五年級學力測驗班級座號成績版，以班級與座號查看國語文、數學、英語文答對率及等級。">
+  <title>班級座號成績版｜115 年度鹿陽學習觀測</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./class-results.css">
+  <script src="./class-results.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到成績查詢</a>
+  <header class="site-header"><div class="header-inner">
+    <a class="brand" href="./index.html"><span class="brand-mark" aria-hidden="true">▥</span><span>鹿陽學習觀測<small>115 年度 · 班級座號成績版</small></span></a>
+    <div class="header-actions"><a href="./index.html" class="back-link">查看彙總解讀版 <span aria-hidden="true">↗</span></a><button type="button" id="print-button">列印此頁</button></div>
+  </div></header>
+  <main id="main">
+    <section class="page-intro" aria-labelledby="page-heading">
+      <div><p class="eyebrow">115 年度 · 鹿陽國民小學五年級</p><h1 id="page-heading">班級、座號與<span>三科成績</span></h1><p class="intro-text">選擇班級、輸入座號，即可查看這次測驗的答對率與等級。<br>學生個人資訊以受測時班級和座號顯示。</p></div>
+      <div class="scope-card"><span>本次資料</span><strong id="scope-count">23 <small>位學生</small></strong><p id="scope-description">501 班 · 國語文、數學、英語文</p></div>
+    </section>
+    <div class="score-explainer"><span class="info-icon" aria-hidden="true">i</span><p><strong>先看懂成績：</strong>答對率表示答對題目占全部題目的比例（例如 76%）。等級沿用原報表的「精熟、基礎、待加強」分類。</p></div>
+    <div id="loading" role="status">正在載入成績…</div>
+    <div id="results-app" hidden>
+      <section class="filters-panel" aria-label="篩選班級與座號">
+        <div class="filter-fields"><label for="class-filter">受測時班級<select id="class-filter"></select></label><label for="seat-search" class="seat-field">座號<input id="seat-search" type="search" inputmode="numeric" autocomplete="off" maxlength="2" placeholder="例如 01" aria-describedby="seat-help"></label><button id="reset-filters" type="button">顯示全班</button></div>
+        <p id="seat-help">輸入 1 或 01 都可查詢 01 號；清空座號可查看全班。</p>
+      </section>
+      <div class="results-layout">
+        <section class="roster-panel panel" aria-labelledby="roster-heading">
+          <div class="panel-heading"><div><p class="eyebrow">CLASS RESULTS</p><h2 id="roster-heading">班級成績一覽</h2></div><span class="result-count" id="result-count" role="status" aria-live="polite"></span></div>
+          <div class="subject-view" id="subject-view" aria-label="顯示科目"><button type="button" data-subject="all" aria-pressed="true">三科並列</button><button type="button" data-subject="chinese" aria-pressed="false">國語文</button><button type="button" data-subject="math" aria-pressed="false">數學</button><button type="button" data-subject="english" aria-pressed="false">英語文</button></div>
+          <p class="table-hint" id="roster-hint">依座號排列。點選「查看」可看該座號的三科圖表。</p>
+          <div class="table-scroll desktop-roster"><table id="results-table"><caption class="sr-only">依班級座號排列的測驗答對率與等級</caption><thead id="results-head"></thead><tbody id="results-body"></tbody></table></div>
+          <div class="mobile-roster" id="mobile-roster"></div>
+          <div class="empty-state" id="empty-state" hidden><span aria-hidden="true">⌕</span><h3>沒有符合的座號</h3><p>請輸入原資料中提供的座號，或按「顯示全班」重新查看。</p></div>
+          <p class="source-note">僅列出原資料中的紀錄；未提供的座號不補列、不推定缺漏原因。各科成績以答對率（%）顯示。</p>
+        </section>
+        <aside class="student-panel panel" aria-labelledby="student-heading">
+          <div class="panel-heading"><div><p class="eyebrow">INDIVIDUAL VIEW</p><h2 id="student-heading">座號成績檢視</h2></div><span class="view-badge">三科圖表</span></div>
+          <div id="student-detail" aria-live="polite"></div>
+          <div class="student-navigation" id="student-navigation"><button type="button" id="previous-student" aria-label="查看上一個座號">← 上一位</button><span id="student-position"></span><button type="button" id="next-student" aria-label="查看下一個座號">下一位 →</button></div>
+          <button type="button" id="back-to-roster" class="return-roster">回到班級成績一覽 ↑</button>
+          <div class="detail-guide"><h3>成績可以怎麼讀？</h3><p>先看各科的答對率與等級，再搭配原試卷選一道還不熟的題目。三科題型、難度不同，不把三科相加成總分或排名。</p><a href="./index.html#subjects">查看各科解讀與練習方向 →</a></div>
+        </aside>
+      </div>
+      <section class="data-note" aria-labelledby="data-note-heading"><h2 id="data-note-heading">資料說明</h2><div><p>資料範圍為 115 年度鹿陽國小五年級 501 班，三科各 23 筆。本頁只提供班級、座號、各科整體答對率與等級。</p><p>成績直接採用各科「答對率」Excel 的原始數值；空缺成績顯示「未提供」，不以 0 分代替。班級與座號均為受測時資料。</p></div></section>
+    </div>
+    <noscript><p class="load-error">請啟用 JavaScript 以顯示成績。</p></noscript>
+    <footer><span>鹿陽學習觀測 · 班級座號成績版</span><a href="./index.html">返回彙總解讀版 ↗</a></footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "year": 115,
+    "school": "鹿陽國民小學",
+    "grade": 5,
+    "count": 23,
+    "classCodes": [
+      "501"
+    ],
+    "scoreNote": "成績採來源「整體答對率(%)」與「等級」，百分比不是另行換算的紙本分數。"
+  },
+  "subjects": [
+    {
+      "id": "chinese",
+      "label": "國語文",
+      "color": "#26796e",
+      "questionCount": 30
+    },
+    {
+      "id": "math",
+      "label": "數學",
+      "color": "#bd783a",
+      "questionCount": 25
+    },
+    {
+      "id": "english",
+      "label": "英語文",
+      "color": "#7864b4",
+      "questionCount": 35
+    }
+  ],
+  "students": [
+    {
+      "classCode": "501",
+      "seatNumber": "01",
+      "results": {
+        "chinese": {
+          "answerRate": 57,
+          "level": "基礎"
+        },
+        "math": {
+          "answerRate": 32,
+          "level": "待加強"
+        },
+        "english": {
+          "answerRate": 31,
+          "level": "待加強"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "02",
+      "results": {
+        "chinese": {
+          "answerRate": 80,
+          "level": "基礎"
+        },
+        "math": {
+          "answerRate": 84,
+          "level": "精熟"
+        },
+        "english": {
+          "answerRate": 91,
+          "level": "基礎"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "03",
+      "results": {
+        "chinese": {
+          "answerRate": 80,
+          "level": "基礎"
+        },
+        "math": {
+          "answerRate": 60,
+          "level": "基礎"
+        },
+        "english": {
+          "answerRate": 89,
+          "level": "基礎"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "04",
+      "results": {
+        "chinese": {
+          "answerRate": 73,
+          "level": "基礎"
+        },
+        "math": {
+          "answerRate": 60,
+          "level": "基礎"
+        },
+        "english": {
+          "answerRate": 23,
+          "level": "待加強"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "05",
+      "results": {
+        "chinese": {
+          "answerRate": 57,
+          "level": "基礎"
+        },
+        "math": {
+          "answerRate": 52,
+          "level": "基礎"
+        },
+        "english": {
+          "answerRate": 100,
+          "level": "精熟"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "06",
+      "results": {
+        "chinese": {
+          "answerRate": 30,
+          "level": "待加強"
+        },
+        "math": {
+          "answerRate": 28,
+          "level": "待加強"
+        },
+        "english": {
+          "answerRate": 20,
+          "level": "待加強"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "07",
+      "results": {
+        "chinese": {
+          "answerRate": 93,
+          "level": "精熟"
+        },
+        "math": {
+          "answerRate": 96,
+          "level": "精熟"
+        },
+        "english": {
+          "answerRate": 100,
+          "level": "精熟"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "08",
+      "results": {
+        "chinese": {
+          "answerRate": 100,
+          "level": "精熟"
+        },
+        "math": {
+          "answerRate": 100,
+          "level": "精熟"
+        },
+        "english": {
+          "answerRate": 97,
+          "level": "精熟"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "09",
+      "results": {
+        "chinese": {
+          "answerRate": 87,
+          "level": "精熟"
+        },
+        "math": {
+          "answerRate": 68,
+          "level": "基礎"
+        },
+        "english": {
+          "answerRate": 94,
+          "level": "精熟"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "10",
+      "results": {
+        "chinese": {
+          "answerRate": 77,
+          "level": "基礎"
+        },
+        "math": {
+          "answerRate": 72,
+          "level": "精熟"
+        },
+        "english": {
+          "answerRate": 94,
+          "level": "精熟"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "11",
+      "results": {
+        "chinese": {
+          "answerRate": 83,
+          "level": "基礎"
+        },
+        "math": {
+          "answerRate": 52,
+          "level": "基礎"
+        },
+        "english": {
+          "answerRate": 100,
+          "level": "精熟"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "12",
+      "results": {
+        "chinese": {
+          "answerRate": 27,
+          "level": "待加強"
+        },
+        "math": {
+          "answerRate": 12,
+          "level": "待加強"
+        },
+        "english": {
+          "answerRate": 20,
+          "level": "待加強"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "13",
+      "results": {
+        "chinese": {
+          "answerRate": 87,
+          "level": "精熟"
+        },
+        "math": {
+          "answerRate": 64,
+          "level": "基礎"
+        },
+        "english": {
+          "answerRate": 91,
+          "level": "基礎"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "14",
+      "results": {
+        "chinese": {
+          "answerRate": 83,
+          "level": "基礎"
+        },
+        "math": {
+          "answerRate": 60,
+          "level": "基礎"
+        },
+        "english": {
+          "answerRate": 91,
+          "level": "基礎"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "15",
+      "results": {
+        "chinese": {
+          "answerRate": 77,
+          "level": "基礎"
+        },
+        "math": {
+          "answerRate": 60,
+          "level": "基礎"
+        },
+        "english": {
+          "answerRate": 91,
+          "level": "基礎"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "16",
+      "results": {
+        "chinese": {
+          "answerRate": 27,
+          "level": "待加強"
+        },
+        "math": {
+          "answerRate": 36,
+          "level": "基礎"
+        },
+        "english": {
+          "answerRate": 29,
+          "level": "待加強"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "18",
+      "results": {
+        "chinese": {
+          "answerRate": 87,
+          "level": "精熟"
+        },
+        "math": {
+          "answerRate": 56,
+          "level": "基礎"
+        },
+        "english": {
+          "answerRate": 94,
+          "level": "精熟"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "19",
+      "results": {
+        "chinese": {
+          "answerRate": 77,
+          "level": "基礎"
+        },
+        "math": {
+          "answerRate": 40,
+          "level": "基礎"
+        },
+        "english": {
+          "answerRate": 100,
+          "level": "精熟"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "20",
+      "results": {
+        "chinese": {
+          "answerRate": 93,
+          "level": "精熟"
+        },
+        "math": {
+          "answerRate": 76,
+          "level": "精熟"
+        },
+        "english": {
+          "answerRate": 97,
+          "level": "精熟"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "21",
+      "results": {
+        "chinese": {
+          "answerRate": 60,
+          "level": "基礎"
+        },
+        "math": {
+          "answerRate": 48,
+          "level": "基礎"
+        },
+        "english": {
+          "answerRate": 100,
+          "level": "精熟"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "22",
+      "results": {
+        "chinese": {
+          "answerRate": 53,
+          "level": "基礎"
+        },
+        "math": {
+          "answerRate": 40,
+          "level": "基礎"
+        },
+        "english": {
+          "answerRate": 89,
+          "level": "基礎"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "23",
+      "results": {
+        "chinese": {
+          "answerRate": 80,
+          "level": "基礎"
+        },
+        "math": {
+          "answerRate": 32,
+          "level": "待加強"
+        },
+        "english": {
+          "answerRate": 94,
+          "level": "精熟"
+        }
+      }
+    },
+    {
+      "classCode": "501",
+      "seatNumber": "24",
+      "results": {
+        "chinese": {
+          "answerRate": 87,
+          "level": "精熟"
+        },
+        "math": {
+          "answerRate": 44,
+          "level": "基礎"
+        },
+        "english": {
+          "answerRate": 97,
+          "level": "精熟"
+        }
+      }
+    }
+  ]
+}
