@@ -1,0 +1,9 @@
+node_modules/
+.local/
+*.xlsx
+*.xls
+*.pdf
+*.csv
+*.log
+.DS_Store
+Thumbs.db

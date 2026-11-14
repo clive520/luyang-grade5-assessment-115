@@ -1,0 +1,1016 @@
+{
+  "meta": {
+    "year": 115,
+    "school": "鹿陽國民小學",
+    "grade": 5,
+    "classLabel": "五年 1 班（501）",
+    "count": 23,
+    "scope": "本次資料僅涵蓋五年級 501 班，無其他班級、年級或年度的比較資料。",
+    "averageNote": "報表班平均直接取自來源「班平均」檔；紀錄平均依 23 筆個人整體答對率重算，原始百分比已四捨五入。兩者數值不同，來源未註明原因，因此分開呈現。"
+  },
+  "subjects": [
+    {
+      "id": "chinese",
+      "label": "國語文",
+      "color": "#26796e",
+      "count": 23,
+      "reportedAverage": 76,
+      "recordMean": 72.0,
+      "levels": [
+        {
+          "label": "精熟",
+          "count": 7,
+          "share": 30.4
+        },
+        {
+          "label": "基礎",
+          "count": 13,
+          "share": 56.5
+        },
+        {
+          "label": "待加強",
+          "count": 3,
+          "share": 13.0
+        }
+      ],
+      "dimensions": [
+        {
+          "label": "形音知識",
+          "group": "語文知識",
+          "rate": 78
+        },
+        {
+          "label": "字詞知識",
+          "group": "語文知識",
+          "rate": 79
+        },
+        {
+          "label": "語法知識",
+          "group": "語文知識",
+          "rate": 70
+        },
+        {
+          "label": "修辭知識",
+          "group": "語文知識",
+          "rate": 81
+        },
+        {
+          "label": "章法知識",
+          "group": "語文知識",
+          "rate": 48
+        },
+        {
+          "label": "文體知識",
+          "group": "語文知識",
+          "rate": 90
+        },
+        {
+          "label": "字詞理解",
+          "group": "閱讀理解",
+          "rate": 92
+        },
+        {
+          "label": "句子理解",
+          "group": "閱讀理解",
+          "rate": 74
+        },
+        {
+          "label": "段落理解",
+          "group": "閱讀理解",
+          "rate": 74
+        },
+        {
+          "label": "篇章理解",
+          "group": "閱讀理解",
+          "rate": 75
+        }
+      ],
+      "distribution": [
+        {
+          "label": "0–19%",
+          "count": 0
+        },
+        {
+          "label": "20–39%",
+          "count": 3
+        },
+        {
+          "label": "40–59%",
+          "count": 3
+        },
+        {
+          "label": "60–79%",
+          "count": 5
+        },
+        {
+          "label": "80–100%",
+          "count": 12
+        }
+      ],
+      "items": [
+        {
+          "number": 1,
+          "correct": 16,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 69.6
+        },
+        {
+          "number": 2,
+          "correct": 19,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 82.6
+        },
+        {
+          "number": 3,
+          "correct": 16,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 69.6
+        },
+        {
+          "number": 4,
+          "correct": 16,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 69.6
+        },
+        {
+          "number": 5,
+          "correct": 18,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 78.3
+        },
+        {
+          "number": 6,
+          "correct": 12,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 52.2
+        },
+        {
+          "number": 7,
+          "correct": 14,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 60.9
+        },
+        {
+          "number": 8,
+          "correct": 21,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 91.3
+        },
+        {
+          "number": 9,
+          "correct": 15,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 65.2
+        },
+        {
+          "number": 10,
+          "correct": 18,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 78.3
+        },
+        {
+          "number": 11,
+          "correct": 20,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 87.0
+        },
+        {
+          "number": 12,
+          "correct": 17,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 73.9
+        },
+        {
+          "number": 13,
+          "correct": 14,
+          "total": 23,
+          "valid": 22,
+          "missing": 1,
+          "rate": 63.6
+        },
+        {
+          "number": 14,
+          "correct": 11,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 47.8
+        },
+        {
+          "number": 15,
+          "correct": 18,
+          "total": 23,
+          "valid": 22,
+          "missing": 1,
+          "rate": 81.8
+        },
+        {
+          "number": 16,
+          "correct": 21,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 91.3
+        },
+        {
+          "number": 17,
+          "correct": 21,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 91.3
+        },
+        {
+          "number": 18,
+          "correct": 20,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 87.0
+        },
+        {
+          "number": 19,
+          "correct": 14,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 60.9
+        },
+        {
+          "number": 20,
+          "correct": 19,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 82.6
+        },
+        {
+          "number": 21,
+          "correct": 13,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 56.5
+        },
+        {
+          "number": 22,
+          "correct": 17,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 73.9
+        },
+        {
+          "number": 23,
+          "correct": 14,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 60.9
+        },
+        {
+          "number": 24,
+          "correct": 14,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 60.9
+        },
+        {
+          "number": 25,
+          "correct": 19,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 82.6
+        },
+        {
+          "number": 26,
+          "correct": 21,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 91.3
+        },
+        {
+          "number": 27,
+          "correct": 13,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 56.5
+        },
+        {
+          "number": 28,
+          "correct": 12,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 52.2
+        },
+        {
+          "number": 29,
+          "correct": 19,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 82.6
+        },
+        {
+          "number": 30,
+          "correct": 14,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 60.9
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "label": "英語文",
+      "color": "#7864b4",
+      "count": 23,
+      "reportedAverage": 85,
+      "recordMean": 79.7,
+      "levels": [
+        {
+          "label": "精熟",
+          "count": 12,
+          "share": 52.2
+        },
+        {
+          "label": "基礎",
+          "count": 6,
+          "share": 26.1
+        },
+        {
+          "label": "待加強",
+          "count": 5,
+          "share": 21.7
+        }
+      ],
+      "dimensions": [
+        {
+          "label": "語音聽辨",
+          "group": "聽力",
+          "rate": 81
+        },
+        {
+          "label": "辭彙聽辨",
+          "group": "聽力",
+          "rate": 89
+        },
+        {
+          "label": "教室生活辭句理解與回應",
+          "group": "聽力",
+          "rate": 84
+        },
+        {
+          "label": "文化節慶理解",
+          "group": "聽力",
+          "rate": 83
+        },
+        {
+          "label": "字詞辨識",
+          "group": "閱讀能力",
+          "rate": 90
+        },
+        {
+          "label": "句子理解",
+          "group": "閱讀能力",
+          "rate": 82
+        },
+        {
+          "label": "短文與對話理解",
+          "group": "閱讀能力",
+          "rate": 87
+        },
+        {
+          "label": "文化節慶理解",
+          "group": "閱讀能力",
+          "rate": 81
+        }
+      ],
+      "distribution": [
+        {
+          "label": "0–19%",
+          "count": 0
+        },
+        {
+          "label": "20–39%",
+          "count": 5
+        },
+        {
+          "label": "40–59%",
+          "count": 0
+        },
+        {
+          "label": "60–79%",
+          "count": 0
+        },
+        {
+          "label": "80–100%",
+          "count": 18
+        }
+      ],
+      "items": [
+        {
+          "number": 1,
+          "correct": 15,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 65.2
+        },
+        {
+          "number": 2,
+          "correct": 19,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 82.6
+        },
+        {
+          "number": 3,
+          "correct": 21,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 91.3
+        },
+        {
+          "number": 4,
+          "correct": 22,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 95.7
+        },
+        {
+          "number": 5,
+          "correct": 18,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 78.3
+        },
+        {
+          "number": 6,
+          "correct": 18,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 78.3
+        },
+        {
+          "number": 7,
+          "correct": 19,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 82.6
+        },
+        {
+          "number": 8,
+          "correct": 16,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 69.6
+        },
+        {
+          "number": 9,
+          "correct": 18,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 78.3
+        },
+        {
+          "number": 10,
+          "correct": 19,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 82.6
+        },
+        {
+          "number": 11,
+          "correct": 16,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 69.6
+        },
+        {
+          "number": 12,
+          "correct": 19,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 82.6
+        },
+        {
+          "number": 13,
+          "correct": 17,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 73.9
+        },
+        {
+          "number": 14,
+          "correct": 20,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 87.0
+        },
+        {
+          "number": 15,
+          "correct": 20,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 87.0
+        },
+        {
+          "number": 16,
+          "correct": 20,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 87.0
+        },
+        {
+          "number": 17,
+          "correct": 20,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 87.0
+        },
+        {
+          "number": 18,
+          "correct": 18,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 78.3
+        },
+        {
+          "number": 19,
+          "correct": 19,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 82.6
+        },
+        {
+          "number": 20,
+          "correct": 20,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 87.0
+        },
+        {
+          "number": 21,
+          "correct": 17,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 73.9
+        },
+        {
+          "number": 22,
+          "correct": 19,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 82.6
+        },
+        {
+          "number": 23,
+          "correct": 15,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 65.2
+        },
+        {
+          "number": 24,
+          "correct": 19,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 82.6
+        },
+        {
+          "number": 25,
+          "correct": 18,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 78.3
+        },
+        {
+          "number": 26,
+          "correct": 19,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 82.6
+        },
+        {
+          "number": 27,
+          "correct": 19,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 82.6
+        },
+        {
+          "number": 28,
+          "correct": 17,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 73.9
+        },
+        {
+          "number": 29,
+          "correct": 19,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 82.6
+        },
+        {
+          "number": 30,
+          "correct": 19,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 82.6
+        },
+        {
+          "number": 31,
+          "correct": 17,
+          "total": 23,
+          "valid": 21,
+          "missing": 2,
+          "rate": 81.0
+        },
+        {
+          "number": 32,
+          "correct": 18,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 78.3
+        },
+        {
+          "number": 33,
+          "correct": 16,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 69.6
+        },
+        {
+          "number": 34,
+          "correct": 17,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 73.9
+        },
+        {
+          "number": 35,
+          "correct": 19,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 82.6
+        }
+      ]
+    },
+    {
+      "id": "math",
+      "label": "數學",
+      "color": "#bd783a",
+      "count": 23,
+      "reportedAverage": 58,
+      "recordMean": 55.3,
+      "levels": [
+        {
+          "label": "精熟",
+          "count": 5,
+          "share": 21.7
+        },
+        {
+          "label": "基礎",
+          "count": 14,
+          "share": 60.9
+        },
+        {
+          "label": "待加強",
+          "count": 4,
+          "share": 17.4
+        }
+      ],
+      "dimensions": [
+        {
+          "label": "數與計算",
+          "group": "內容領域",
+          "rate": 55
+        },
+        {
+          "label": "量與實測",
+          "group": "內容領域",
+          "rate": 40
+        },
+        {
+          "label": "空間與形狀",
+          "group": "內容領域",
+          "rate": 58
+        },
+        {
+          "label": "資料與不確定性",
+          "group": "內容領域",
+          "rate": 95
+        },
+        {
+          "label": "關係",
+          "group": "內容領域",
+          "rate": 66
+        },
+        {
+          "label": "概念理解",
+          "group": "認知歷程",
+          "rate": 59
+        },
+        {
+          "label": "程序執行",
+          "group": "認知歷程",
+          "rate": 52
+        },
+        {
+          "label": "解題思考",
+          "group": "認知歷程",
+          "rate": 81
+        }
+      ],
+      "distribution": [
+        {
+          "label": "0–19%",
+          "count": 1
+        },
+        {
+          "label": "20–39%",
+          "count": 4
+        },
+        {
+          "label": "40–59%",
+          "count": 7
+        },
+        {
+          "label": "60–79%",
+          "count": 8
+        },
+        {
+          "label": "80–100%",
+          "count": 3
+        }
+      ],
+      "items": [
+        {
+          "number": 1,
+          "correct": 22,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 95.7
+        },
+        {
+          "number": 2,
+          "correct": 17,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 73.9
+        },
+        {
+          "number": 3,
+          "correct": 17,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 73.9
+        },
+        {
+          "number": 4,
+          "correct": 20,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 87.0
+        },
+        {
+          "number": 5,
+          "correct": 12,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 52.2
+        },
+        {
+          "number": 6,
+          "correct": 15,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 65.2
+        },
+        {
+          "number": 7,
+          "correct": 18,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 78.3
+        },
+        {
+          "number": 8,
+          "correct": 18,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 78.3
+        },
+        {
+          "number": 9,
+          "correct": 5,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 21.7
+        },
+        {
+          "number": 10,
+          "correct": 11,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 47.8
+        },
+        {
+          "number": 11,
+          "correct": 20,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 87.0
+        },
+        {
+          "number": 12,
+          "correct": 16,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 69.6
+        },
+        {
+          "number": 13,
+          "correct": 13,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 56.5
+        },
+        {
+          "number": 14,
+          "correct": 5,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 21.7
+        },
+        {
+          "number": 15,
+          "correct": 14,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 60.9
+        },
+        {
+          "number": 16,
+          "correct": 7,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 30.4
+        },
+        {
+          "number": 17,
+          "correct": 11,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 47.8
+        },
+        {
+          "number": 18,
+          "correct": 10,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 43.5
+        },
+        {
+          "number": 19,
+          "correct": 9,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 39.1
+        },
+        {
+          "number": 20,
+          "correct": 12,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 52.2
+        },
+        {
+          "number": 21,
+          "correct": 10,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 43.5
+        },
+        {
+          "number": 22,
+          "correct": 12,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 52.2
+        },
+        {
+          "number": 23,
+          "correct": 11,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 47.8
+        },
+        {
+          "number": 24,
+          "correct": 6,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 26.1
+        },
+        {
+          "number": 25,
+          "correct": 7,
+          "total": 23,
+          "valid": 23,
+          "missing": 0,
+          "rate": 30.4
+        }
+      ]
+    }
+  ]
+}

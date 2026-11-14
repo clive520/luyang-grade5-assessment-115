@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#26796e">
+  <meta name="description" content="115 年度鹿陽國小五年級學力測驗公開儀表板，以三科概況、能力向度與匿名分布，看見學習的方向。">
+  <title>鹿陽學習觀測｜115 年度學力測驗</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+  <aside class="sidebar" aria-label="主要導覽">
+    <a class="brand" href="#overview" aria-label="鹿陽學習觀測，回到總覽"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>鹿陽<span class="brand-sub">學習觀測</span></span></a>
+    <div class="sidebar-caption">LEARNING INSIGHTS</div>
+    <nav>
+      <a class="nav-link active" href="#overview"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>學校總覽</a>
+      <a class="nav-link" href="#class-analysis"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10m8 10V4m8 16v-7M2 20h20"/></svg>501 班級分析</a>
+      <a class="nav-link" href="#distribution"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 19h18M5 16v-4h4v4m2 0V5h4v11m2 0V9h4v7"/></svg>學習表現分布</a>
+      <a class="nav-link" href="#questions"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H4v18h16V3h-4M9 2h6v4H9zM8 11h8m-8 5h5"/></svg>逐題觀察</a>
+      <a class="nav-link" href="#methods"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v1"/></svg>資料說明</a>
+    </nav>
+    <div class="sidebar-bottom"><span class="year-badge">115</span><p>年度學力測驗<span>鹿陽國民小學 · 五年級</span></p><div class="public-label"><span></span>公開彙總版</div></div>
+  </aside>
+  <div class="app-shell">
+    <header class="topbar"><p>學力測驗 <span>/</span> <strong>五年級成果儀表板</strong></p><button class="print-button" id="print-button" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6M6 17H3V9h18v8h-3M6 14h12v7H6z"/></svg>列印報告</button></header>
+    <main id="main">
+      <div id="loading" class="loading" role="status">正在整理學習圖像…</div>
+      <div id="dashboard" hidden>
+        <section id="overview" aria-labelledby="overview-heading">
+          <div class="hero"><div><p class="eyebrow">115 年度 · 鹿陽國民小學</p><h1 id="overview-heading">看見學習的樣貌<span>，</span><br>找到下一步的方向。</h1><p class="hero-description">從三科概況到能力向度，讀懂這一次學力測驗。</p></div><div class="hero-note"><span class="orbit" aria-hidden="true"><i></i><i></i><i></i></span><strong>每一份表現，都是學習的線索。</strong><p>五年級 501 班 · 23 位參與學生<br>國語文、英語文、數學</p></div></div>
+          <div class="scope-note"><span class="info-icon" aria-hidden="true">i</span><p>本次資料涵蓋五年級 501 班。學校與班級總覽代表同一批學生；沒有其他班級或年級的比較資料。</p><a href="#methods">了解資料範圍 <span aria-hidden="true">↗</span></a></div>
+          <div class="section-header compact"><div><p class="eyebrow">01 / OVERVIEW</p><h2>三科表現，一眼掌握</h2></div><span class="small-label">整體答對率 · 原報表班平均</span></div>
+          <div class="subject-cards" id="subject-cards"></div>
+          <div class="overview-grid">
+            <article class="panel comparison-panel"><div class="panel-heading"><div><h3>各科整體答對率</h3><p>同一視角，觀察三科的答對表現。</p></div></div><div class="segmented" id="average-mode" aria-label="平均計算口徑"><button type="button" data-mode="reportedAverage" aria-pressed="true">原報表班平均</button><button type="button" data-mode="recordMean" aria-pressed="false">23 筆紀錄平均</button></div><div id="average-chart" class="average-chart"></div><div class="axis-labels"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span></div><p class="chart-note" id="average-note"></p></article>
+            <article class="insight-panel"><div class="insight-icon" aria-hidden="true">✳</div><p class="eyebrow">READ THE PATTERN</p><h3>平均之外，<br>也看看分布。</h3><p>英語文有 <strong>12 人精熟</strong>，同時有 <strong>5 人待加強</strong>。一個平均值，無法完整說明每位學生的學習需求。</p><a href="#distribution">往下看看表現分布 <span aria-hidden="true">↗</span></a><div class="insight-decoration" aria-hidden="true"></div></article>
+          </div>
+          <article class="panel levels-panel"><div class="panel-heading"><div><h3>學習等級分布</h3><p>每科 23 位到考學生，含原報表所列特殊生。</p></div><div class="legend"><span><i class="mastery"></i>精熟</span><span><i class="basic"></i>基礎</span><span><i class="support"></i>待加強</span></div></div><div id="level-chart"></div><p class="chart-note">等級依來源報表認定，與答對率區間不同；百分比由人數重算至小數一位。</p></article>
+        </section>
+        <section id="class-analysis" aria-labelledby="class-heading">
+          <div class="section-header"><div><p class="eyebrow">02 / CLASSROOM</p><h2 id="class-heading">走進五年 1 班</h2><p>找出能力向度的相對強項，以及值得多花時間的地方。</p></div><span class="outline-badge">501 班</span></div>
+          <div class="subject-tabs" id="subject-tabs" aria-label="分析科目"></div>
+          <div class="class-grid"><article class="panel dimensions-panel"><div class="panel-heading"><div><h3><span id="dimension-subject">國語文</span> · 能力向度</h3><p>各向度答對率採原報表班平均。</p></div><label class="sort-control">排列<select id="dimension-sort"><option value="original">原始順序</option><option value="ascending">由低至高</option><option value="descending">由高至低</option></select></label></div><div class="filter-row"><label for="dimension-group">向度類別</label><select id="dimension-group"></select></div><div id="dimension-chart" class="dimension-chart"></div><p class="chart-note">不同向度的題數可能不同；相對低點可作為複習線索，不能直接解讀為能力診斷。</p></article>
+          <aside class="learning-note"><div class="note-top"><span class="small-label">本次觀察</span><span class="note-mark" aria-hidden="true">↗</span></div><h3 id="learning-title"></h3><div id="learning-content"></div><a href="#questions" class="text-link">搭配逐題結果觀察 <span aria-hidden="true">↓</span></a></aside></div>
+        </section>
+        <section id="distribution" aria-labelledby="distribution-heading"><div class="section-header"><div><p class="eyebrow">03 / LEARNING LANDSCAPE</p><h2 id="distribution-heading">看見平均背後的差異</h2><p>以答對率區間呈現個人表現，保留整體樣貌。</p></div></div><article class="panel"><div class="panel-heading"><div><h3>三科答對率分布</h3><p>每科 23 筆成績 · 單位：人</p></div><label class="sort-control">科目<select id="distribution-filter"><option value="all">全部科目</option><option value="chinese">國語文</option><option value="english">英語文</option><option value="math">數學</option></select></label></div><div class="legend subjects-legend" id="distribution-legend"></div><div id="distribution-chart" class="distribution-chart"></div><p class="chart-note">區間依來源個人整體答對率統計。這些區間不代表精熟等級；不提供座號或個人成績對照。</p><details class="data-details"><summary>查看分布數據表</summary><div class="table-scroll" id="distribution-table"></div></details></article></section>
+        <section id="questions" aria-labelledby="questions-heading"><div class="section-header"><div><p class="eyebrow">04 / QUESTION EXPLORER</p><h2 id="questions-heading">把觀察帶回每一道題</h2><p>點選題號，查看全班作答概況；色彩愈深，答對比例愈高。</p></div></div><article class="panel question-panel"><div class="panel-heading"><div><h3><span id="question-subject">國語文</span> · 逐題答對率</h3><p id="question-summary"></p></div><label class="sort-control">排列<select id="question-sort"><option value="original">題號順序</option><option value="ascending">答對率由低至高</option></select></label></div><p class="chart-note question-subject-note">與班級分析使用同一科目。<a href="#class-analysis">切換科目 ↑</a></p><div class="question-layout"><div><div id="question-grid" class="question-grid"></div><div class="heat-legend"><span>較低</span><i></i><span>較高</span></div></div><div class="question-detail" id="question-detail" aria-live="polite"></div></div><p class="chart-note">分母為該題有 0／1 二元作答紀錄的人數；空白另列，不推定為答錯。題號僅供對照原試卷，未公開個人答案或試題內容。</p></article></section>
+        <section id="methods" aria-labelledby="methods-heading"><div class="section-header"><div><p class="eyebrow">05 / ABOUT THE DATA</p><h2 id="methods-heading">讓數字有清楚的來處</h2></div></div><div class="methods-grid"><article class="panel"><h3>資料範圍與計算方式</h3><dl class="method-list"><div><dt>資料年度</dt><dd>115 年度（西元 2026 年），僅呈現單次測驗。</dd></div><div><dt>參與範圍</dt><dd>鹿陽國小五年級 501 班；三科各有 23 筆個人成績。</dd></div><div><dt>兩種平均</dt><dd id="method-average"></dd></div><div><dt>等級與分布</dt><dd>等級直接採用來源分類；分布以個人整體答對率分成五個區間，不跨科相加，也不換算成總排名。</dd></div><div><dt>缺漏處理</dt><dd>名冊中未提供的座號不補造資料；逐題空白從該題有效分母排除。</dd></div></dl></article><article class="panel privacy-panel"><div class="privacy-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M16 3 5 8v8c0 6 11 13 11 13s11-7 11-13V8Z"/><path d="m11 16 4 4 7-8"/></svg></div><h3>聚焦學習，也保護個人</h3><p>這是公開彙總版。網站僅保存班級平均、等級人數、區間分布與逐題彙總。</p><p>姓名、性別、座號、個人 PR、個人成績與原始 Excel／PDF 均未放入公開網站或儲存庫。</p><details class="data-details"><summary>使用哪些來源？</summary><p>各科「班平均」「各校等級資料」「答對率」「作答反應」Excel。資料僅在本機轉換成彙總；個人成績 PDF 未公開。</p></details></article></div></section>
+        <footer><div class="footer-brand"><span class="mini-mark" aria-hidden="true">▥</span> 鹿陽學習觀測<span>115 年度 · 五年級學力測驗</span></div><p>讓資料成為理解學習的起點。</p><a href="#overview">回到頂端 ↑</a></footer>
+      </div>
+      <noscript><p class="error-message">此儀表板需要 JavaScript 才能顯示互動圖表，請在瀏覽器啟用 JavaScript。</p></noscript>
+    </main>
+  </div>
+</body>
+</html>
